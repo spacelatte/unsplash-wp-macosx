@@ -10,6 +10,12 @@
 		4115810C1ED8027600EAAEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115810B1ED8027600EAAEE6 /* AppDelegate.swift */; };
 		4115810E1ED8027600EAAEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4115810D1ED8027600EAAEE6 /* Assets.xcassets */; };
 		411581111ED8027600EAAEE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4115810F1ED8027600EAAEE6 /* MainMenu.xib */; };
+		411581201ED806FB00EAAEE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411581191ED806FB00EAAEE6 /* Foundation.framework */; };
+		411581211ED806FB00EAAEE6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4115811A1ED806FB00EAAEE6 /* ImageIO.framework */; };
+		411581231ED806FB00EAAEE6 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4115811C1ED806FB00EAAEE6 /* PreferencePanes.framework */; };
+		411581241ED806FB00EAAEE6 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4115811D1ED806FB00EAAEE6 /* Quartz.framework */; };
+		411581251ED806FB00EAAEE6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4115811E1ED806FB00EAAEE6 /* QuartzCore.framework */; };
+		411581261ED806FB00EAAEE6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4115811F1ED806FB00EAAEE6 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +24,13 @@
 		4115810D1ED8027600EAAEE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		411581101ED8027600EAAEE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		411581121ED8027600EAAEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411581191ED806FB00EAAEE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4115811A1ED806FB00EAAEE6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4115811B1ED806FB00EAAEE6 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		4115811C1ED806FB00EAAEE6 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		4115811D1ED806FB00EAAEE6 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		4115811E1ED806FB00EAAEE6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4115811F1ED806FB00EAAEE6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +38,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411581201ED806FB00EAAEE6 /* Foundation.framework in Frameworks */,
+				411581211ED806FB00EAAEE6 /* ImageIO.framework in Frameworks */,
+				411581231ED806FB00EAAEE6 /* PreferencePanes.framework in Frameworks */,
+				411581241ED806FB00EAAEE6 /* Quartz.framework in Frameworks */,
+				411581251ED806FB00EAAEE6 /* QuartzCore.framework in Frameworks */,
+				411581261ED806FB00EAAEE6 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +55,7 @@
 			children = (
 				4115810A1ED8027600EAAEE6 /* unsplash */,
 				411581091ED8027600EAAEE6 /* Products */,
+				411581181ED806FB00EAAEE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +76,20 @@
 				411581121ED8027600EAAEE6 /* Info.plist */,
 			);
 			path = unsplash;
+			sourceTree = "<group>";
+		};
+		411581181ED806FB00EAAEE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				411581191ED806FB00EAAEE6 /* Foundation.framework */,
+				4115811A1ED806FB00EAAEE6 /* ImageIO.framework */,
+				4115811B1ED806FB00EAAEE6 /* Intents.framework */,
+				4115811C1ED806FB00EAAEE6 /* PreferencePanes.framework */,
+				4115811D1ED806FB00EAAEE6 /* Quartz.framework */,
+				4115811E1ED806FB00EAAEE6 /* QuartzCore.framework */,
+				4115811F1ED806FB00EAAEE6 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +124,7 @@
 				TargetAttributes = {
 					411581071ED8027600EAAEE6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JP548GHE53;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -241,7 +276,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JP548GHE53;
 				INFOPLIST_FILE = unsplash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.n0pe.mert.unsplash;
@@ -254,7 +291,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JP548GHE53;
 				INFOPLIST_FILE = unsplash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.n0pe.mert.unsplash;
